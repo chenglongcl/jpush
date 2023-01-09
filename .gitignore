@@ -4,3 +4,4 @@
 vendor/*
 !vendor/vendor.json
 cmd/
+client_test.go
