@@ -7,5 +7,6 @@ type Options struct {
 	ApnsProduction    bool                              `json:"apns_production"`
 	ApnsCollapseId    string                            `json:"apns_collapse_id,omitempty"`
 	BigPushDuration   int                               `json:"big_push_duration,omitempty"`
+	Classification    int                               `json:"classification,omitempty"`
 	ThirdPartyChannel map[string]map[string]interface{} `json:"third_party_channel,omitempty"`
 }
